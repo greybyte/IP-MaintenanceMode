@@ -1,0 +1,20 @@
+{
+  "title": "Maintenance mode",
+  "version": "1.00",
+  "name": "MaintenanceMode",
+  "description": "Use this plugin to put your website in maintenance mode (show a static page instead of content)",
+  "author": "Chris Vigelius <me@cv.gd>",
+  "options": [
+    {
+      "label": "Maintenance Mode enabled",
+      "name": "enabled",
+      "type": "Checkbox",
+      "default": 0
+    }, {
+      "label": "Maintenance Mode contents",
+      "name": "content",
+      "type": "Textarea",
+      "default": "<!DOCTYPE html>\n<head>\n<meta charset=\"UTF-8\" />\n<title>Site maintenance</title>\n</head>\n<body>\n<h2>Site Maintenance</h2>\n<p>This site is currently disabled. Check back later.</p>\n</body>\n</html>"
+    }
+  ]
+}
